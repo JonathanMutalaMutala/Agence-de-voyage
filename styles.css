@@ -14,6 +14,10 @@ h1
     font-size: 45px;
     color: #444;
 }
+h2{
+    color : #444; 
+    font-size: 55px;
+}
 .pointOrange{    /* Mon point orange de mon entete*/
     color : #ff7a00; 
 }
@@ -53,4 +57,34 @@ header nav ul li a {
     text-transform: uppercase;
     font-weight: bold;
     margin-left: 20px;
+}
+/* Main image */
+#main-image {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    background: url('Images/24.6\ main.jpg.jpg') center;
+}
+#main-image h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding : 150px 0 40px 0 ; 
+    margin-bottom: 20px;
+}
+.button-1 
+{
+    display:block;
+    width: 180px;
+    height: 50px;
+    background-color: #ff7a00;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 20px;
+    
+
 }
