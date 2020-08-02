@@ -18,6 +18,15 @@ h2{
     color : #444; 
     font-size: 55px;
 }
+h4{
+    font-size: 24px;
+    color: #444;
+
+}
+p{
+    line-height: 20px;
+    color : #777 ; 
+}
 .pointOrange{    /* Mon point orange de mon entete*/
     color : #ff7a00; 
 }
@@ -73,7 +82,7 @@ header nav ul li a {
     padding : 150px 0 40px 0 ; 
     margin-bottom: 20px;
 }
-.button-1 
+.button-1
 {
     display:block;
     width: 180px;
@@ -85,6 +94,48 @@ header nav ul li a {
     line-height: 50px;
     text-align: center;
     border-radius: 20px;
-    
+}
 
+/* STEPS */
+
+#steps ul 
+{
+    margin : 80px 0 ; 
+}
+#steps ul li 
+{
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+    
+}
+#step h4
+{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+#step p  
+{
+    margin-bottom: 20px;
+}
+#step-1 
+{
+    background: url('Images/24.2\ steps-icon-1.png.png') no-repeat top center;
+   
+}
+#step-2
+{
+    background: url('Images/24.1\ steps-icon-2.png.png') no-repeat top center;
+}
+#step-3
+{
+    background: url('Images/24.3\ steps-icon-3.png.png') no-repeat top center;
+}
+#stepsAllign
+{
+    padding-left: 15%;
+    align-items: center;
 }
